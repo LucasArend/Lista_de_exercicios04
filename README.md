@@ -1,6 +1,7 @@
 Lista de Exercícios 04
 
-Este repositório contém a implementação de uma página pessoal desenvolvida como parte da disciplina de Lógica de Programação. O projeto visa consolidar conhecimentos em HTML, CSS e JavaScript.
+Este repositório contém a implementação de uma página pessoal desenvolvida como parte da disciplina de Lógica de Programação.
+
 🚀 Tecnologias Utilizadas
 
     HTML5: Estruturação semântica da página.
@@ -19,7 +20,6 @@ Este repositório contém a implementação de uma página pessoal desenvolvida 
 
     images/: Diretório contendo imagens utilizadas no site.
 
-    .gitattributes: Configurações específicas do Git.
 
 🔧 Como Executar
 
@@ -33,6 +33,3 @@ Navegue até o diretório do projeto:
 
     Abra o arquivo perfil.html em seu navegador para visualizar a página.
 
-📌 Observações
-
-Este projeto foi desenvolvido com o objetivo de praticar e aprimorar habilidades em desenvolvimento web front-end, abordando conceitos fundamentais de estruturação, estilização e interatividade.
