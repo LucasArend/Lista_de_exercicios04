@@ -285,13 +285,16 @@ button:hover {
   align-items: center;
   justify-content: center;
   z-index: 9999;
-  transition: opacity 2s ease;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1.2s ease, visibility 1.2s ease;
   pointer-events: none;
 }
 
 #splash h1 {
   font-size: 1.8rem;
   text-align: center;
+   color: white;
 }
 
 #splash.fade-out {

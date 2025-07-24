@@ -17,6 +17,7 @@ window.addEventListener("load", () => {
 
         setTimeout(() => {
           splash.style.display = "none";
+
         }, 2000); 
       }, 1000);
     }
