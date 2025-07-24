@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Perfil</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div id="splash">
+    <h1></h1>
+  </div>
+
+  <header>
+    <img src="/images/foto perfil.jpg" alt="Foto de Lucas Arend Maciel" class="fotoPerfil" />
+    <h1>Lucas Arend Maciel</h1>
+    <p>FullStack Developer</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#sobre" title="Ir para Sobre Mim">Sobre mim</a></li>
+      <li><a href="#habilidades" title="Ver habilidades">Habilidades</a></li>
+      <li><a href="#projetos" title="Ver projetos">Projetos</a></li>
+      <li><a href="#contato" title="Informações de contato">Contato</a></li>
+    </ul>
+
+  </nav>
+
+  <main>
+    <aside class="fade-in">
+      <section >
+        <h2>Redes Sociais</h2>
+        <ul>
+          <li><a href="https://github.com/seuusuario" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+          <li><a href="https://linkedin.com/in/seuusuario" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        </ul>
+      </section>
+      <section id="habilidades" class="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+        </ul>
+    </section>
+
+      <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: <a href="mailto:lucas.m.arend@gmail.com" title="Enviar email">lucas.m.arend@gmail.com</a></p>
+      </section>
+    </aside>
+
+    <div>
+      <section id="sobre" class="sobre fade-in">
+        <h2>Sobre mim</h2>
+        <p>
+          Olá! Sou Lucas, um desenvolvedor FullStack em constante evolução,desta vez a minha jornada recomeçou com a +PraTI em conjunto com a Codifica.
+        </p>
+        <p>
+          Resolvi desafios de lógica em JavaScript e os personalizei impondo desafios para mim mesmo adicionando interações com o usuário, menus para facilitar navegação e estratégias que diminuiram o tempo de execução do programa.
+        </p>
+        <p>
+          Então, passamos para o front end, a página era simples mas vi a possibilidade de avançar um pouco nos estudos e construir um projeto em SPA (Single Page Application), e consumir uma API pública do Scryfall. Com isso, evoluí na integração com APIs, manipulação do DOM e construção de interfaces dinâmicas.
+        </p>
+        <p>
+          Estou sempre buscando aprender novas tecnologias e melhorar meu código com foco em clareza, eficiência e experiência do usuário.
+        </p>
+      </section>
+
+
+
+    <section id="projetos" class="projetos fade-in">
+      <h2>Projetos em Destaque</h2>
+
+      <article>
+        <h3><a href="https://github.com/LucasArend/Exercicios-maisprati01" title="Estruturas Básicas">Estruturas Básicas</a></h3>
+        <p>
+          Este projeto marca o início das minhas aulas na +prati. Resolvi desafios de lógica utilizando <code>prompt-sync</code> para tornar a experiência mais interativa. O foco foi entender estruturas condicionais, laços e manipulação de variáveis.
+        </p>
+      </article>
+
+      <article>
+        <h3><a href="https://github.com/LucasArend/Exercicios-maisprati02" title="Estruturas">Estruturas</a></h3>
+        <p>
+          Nesta etapa, aprofundei meus conhecimentos técnicos. Os exercícios evoluíram, e eu inclui uso de <code>filter()</code>,<code>reduce()</code>, <code>promisse()</code>, recursividade e um menu de navegação mais intuitivo, aproximando o código de um sistema real.
+        </p>
+      </article>
+
+      <article>
+        <h3><a href="https://github.com/LucasArend/Exercicios-maisprati03" title="Desenvolvimento Web Básico">Desenvolvimento Web Básico</a></h3>
+        <p>
+          Aqui entrei no mundo do front-end com uma Single Page Application (SPA) que consome a API pública do <a href="https://scryfall.com/" target="_blank" rel="noopener noreferrer">Scryfall</a>. O projeto me permitiu exercitar a manipulação de DOM, requisições HTTP e construção de interfaces dinâmicas em JavaScript puro, reforçando minha capacidade de integrar dados externos a uma interface responsiva.
+        </p>
+      </article>
+    </section>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lucas Arend Maciel. Todos os direitos reservados.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
